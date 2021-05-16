@@ -1,24 +1,3 @@
-/*
-╔═════════════════╗
-║   PAY TO PLAY   ║
-║  ╔═══╦═══╦═══╗  ║
-║  ║ T ║ I ║ C ║  ║
-║  ╠═══╬═══╬═══╣  ║
-║  ║ T ║ A ║ C ║  ║
-║  ╠═══╬═══╬═══╣  ║
-║  ║ T ║ O ║ E ║  ║
-║  ╚═══╩═══╩═══╝  ║
-╚═════════════════╝
-*
-*  Reach Hackathon
-* 
-*  squidKid-deluxe and litepresence
-*  WTFPL 2021
-*
-*   sudo ./reach compile && sudo make build && sudo make run-alice
-*/
-
-
 import * as stdlib_loader from "@reach-sh/stdlib/loader.mjs";
 import * as TTT from "./build/index.main.mjs";
 import { ask, yesno, done } from '@reach-sh/stdlib/ask.mjs';
